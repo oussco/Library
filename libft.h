@@ -6,19 +6,15 @@
 /*   By: oba <oba@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/21 19:36:00 by oba               #+#    #+#             */
-/*   Updated: 2024/03/16 17:08:09 by oba              ###   ########.fr       */
+/*   Updated: 2024/03/17 16:40:27 by oba              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <string.h>
-# include <unistd.h>
 # include <stdio.h>
-# include <ctype.h>
 # include <stdlib.h>
-# include <fcntl.h>
 
 typedef struct s_list
 {

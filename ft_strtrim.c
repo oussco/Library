@@ -6,7 +6,7 @@
 /*   By: oba <oba@student.42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/13 15:08:29 by oba               #+#    #+#             */
-/*   Updated: 2024/01/23 10:50:28 by oba              ###   ########.fr       */
+/*   Updated: 2024/03/17 17:08:24 by oba              ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,7 +60,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 	fin = ft_fin(s1, set);
 	if (debut >= fin)
 		return (ft_strdup(""));
-	strtrimed = (char *)malloc(sizeof(char) * (fin - debut + 1));
+	strtrimed = malloc(sizeof(char) * (fin - debut + 1));
 	if (strtrimed == NULL)
 		return (NULL);
 	ft_strlcpy(strtrimed, s1 + debut, fin - debut + 1);
